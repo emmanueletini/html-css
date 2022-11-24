@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div ~ p{
+            color : red;
+        }
+        [data="false"]{
+            color: rgb(124, 42, 255);
+        }
+        button{
+            padding: 10px;
+            background-color: #00d1b2;
+            border: 1px solid;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: #ff0000;
+            padding: 15px;
+            transition: ease-in 1s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>I am not a paragraph </h2>
+        <p data="false">Hello I am a paragraph</p>
+        <p data="true">Adjacent Hello I am a paragraph</p>
+        <p>Adjacent Hello I am a paragraph</p>
+        <article> 
+            <p> Hello I am inside an article </p>
+        </article>
+        <p>Hello I am a paragraph</p>
+    </div>
+    
+    <p>Adjacent Hello I am a paragraph</p>
+    <a>hhhhh</a>
+    <p>Adjacent Hello I am a paragraph</p>
+    <p>Adjacent Hello I am a paragraph</p>
+    <p>Adjacent Hello I am a paragraph</p>
+    <button>help me</button>
+</body>
+</html>
