@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #0e5effd2;
+        }
+.content {
+    max-width: 400px;
+    margin: 10% auto auto auto;
+    font-family: sans-serif;
+    background-color: white;
+    padding: 20px;
+}
+input{
+    border-radius: 5px;
+    padding: 10px;
+    width: calc(100% - 24px);
+    border-width: 2px;
+    border-style: solid;
+    border-color: gray;
+}
+.button{
+    padding: 5px;
+    width: 130px;
+    background-color: #0e5effd2;
+    border: none;
+    color: white;
+height: 30px;
+}
+.title{
+    color: #0e5effd2;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#first-button{
+    margin-right: 10px;
+}
+  .form-group{
+    margin-bottom: 15px;
+
+  }
+  .text-center{
+    text-align: center;
+  }
+    label{
+        margin-bottom: 5px;
+        display: block;
+        font-size: large;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: #0a368fd2;
+        box-shadow: 2px 2px #000;
+    }
+    </style>
+    
+    <div class="content">
+        <h2 class="title">Create Account</h2>
+    <form>       
+        <div class="form-group">
+            <label>Enter your name</label>
+        <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label>Enter your email</label>
+        <input type="email" placeholder="Email">
+        </div>
+        <div class="form-group" >
+            <label>Enter your password</label>
+        <input type="password" placeholder="Password">
+        </div>
+        <div class="text-center">
+<button class="button" id="first-button">SIGN UP</button>
+<button class="button">SIGN IN</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
