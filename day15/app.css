@@ -1,0 +1,37 @@
+/*adjacent sibling*/
+div+p{
+    color: rgb(128, 0, 0);
+}
+
+/*descendant sibling*/
+div p{
+    color: green;
+}
+
+/*child selector */
+div > p {
+    color: blue;
+}
+
+/* general sibling */
+div ~ p{
+    color: yellowgreen;
+}
+
+.use:hover+.hide{
+    display: none;
+}
+p.tada{
+background-color: yellow;
+padding: 10px;
+color: black;
+display: none;
+}
+
+div:hover p.tada{
+    display: block !important;
+}
+
+ul li{
+    list-style: square inside url("./sqpurple.gif")
+}
