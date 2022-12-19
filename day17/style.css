@@ -1,0 +1,58 @@
+html,body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.1rem;
+    margin: 0;
+    background-color: #000;
+}
+.notification.danger{
+    background-color: var(--danger);
+    color: #fff;
+}
+.notification.warning{
+    background-color: var(--warning);
+}
+.notification.success{
+    background-color: var(--success);
+}
+.notification.info{
+    background-color: var(--info);
+    color: #fff;
+}
+.notification{
+max-width: 500px;
+margin: auto auto 10px auto;
+padding: 20px;
+text-align: center;
+border-radius: 5px;
+}
+p{
+    margin: 0;
+}
+.traffic div{
+    max-width: 50px;
+    height: 50px;
+    margin: auto auto 5px auto;
+    border-radius: 50%;
+}
+/*we are selecting the first div*/
+.traffic div:first-child{
+    background-color: var(--success);
+}
+.traffic div:nth-child(2){
+    background-color: var(--warning);
+}
+.traffic div:last-child{
+    background-color: var(--danger);
+}
+.traffic{
+    border: 1px solid #fff;
+    max-width: 80px;
+    margin: auto;
+    padding: 10px;
+}
+:root{
+    --danger : rgb(255, 60, 60);
+    --success : rgb(22, 233, 62);
+    --warning : rgb(255, 255, 88);
+    --info : rgb(61, 61, 255);
+}

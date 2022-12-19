@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+
+ body {
+     font-family: 'Amaranth', sans-serif;
+ }
+label{
+display: block;
+margin-bottom: 5px;
+}
+ .icon {
+     margin: auto auto 20px auto;
+     border-radius: 50%;
+     border: 1px solid #94d0ff;
+     background-color: #94d0ff;
+     color: #0091ff;
+     height: 45px;
+     width: 45px;
+     padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.content{
+    max-width: 300px;
+    margin: auto;
+    border-top:5px solid #0091ff;
+    border-right: 1px solid rgb(160, 160, 160);
+    border-bottom: 1px solid rgb(160, 160, 160);
+    border-left: 1px solid rgb(160, 160, 160);
+    border-radius: 10px;
+    padding: 20px;
+/* 22 */
+}
+ .form-group {
+     max-width: 500px;
+     margin: 0 0 10px 0;
+ }
+
+ .button{
+     border-radius: 5px;
+     background-color: #0091ff; 
+     border: none;
+     padding: 10px;
+    width: 100%;
+    color: #000;
+    cursor: pointer;
+ }
+.button:hover{
+background-color: #000;
+color: #fff;
+}
+ input {
+    /*22px */
+     padding: 10px;
+     border-radius: 5px;
+     border: none;
+     width: calc(100%  - 22px);
+    background-color: rgb(199, 199, 199);
+    }
+    
